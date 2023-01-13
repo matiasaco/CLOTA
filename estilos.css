@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #9E8A6D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5D829E;
+    font-size: 25px;
+    height: 80px;
+    padding: 10px;
+}
+.logo{
+    text-transform: uppercase;
+    text-align: center;
+}
+.logo span{
+    color: #070808;
+    }
+    .barra{
+        float: right;
+    }
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+.barra ul li a{
+    text-decoration: none;
+    color: #020202;
+}
+main{
+    text-align: center;
+    height: 100vh;
+    width: 100%;  
+    background-size: cover; 
+    background-image: url(/mult/fondo.jpg)
+}
+.call{
+    color: #000;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    background-color:#5D829E;   
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    
+}
+.somos{
+    text-align: center;
+}
+.tsomos{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.lredes{
+    text-align: left;
+}
+.productos{
+    padding-left: 10%;
+    padding-right: 10%;
+}
